@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Minha pagina com Formulários</title>
+
+    <head>
+
+    <body>
+
+        <form method="post" action="malito:seuemail@gmail.com">
+            Nome:
+            <input type="text" size="10" maxlength="40" name="name" /><br />
+            Senha:
+            <input type="password" size="10" maxlength="10" name="password" />
+            <INPUT TYPE=HIDDEN NAME=Escondido value=Sim>
+            <p>Qual cor e tamanho da camisa?</p>
+            <label>Cor:</label> <br />
+            <input type="radio" name="cor" value="azul" />
+            Azul <br />
+            <input type="radio" name="cor" value="branca" />
+            Branca <br />
+            <label>Tamanho:</label> <br />
+            <input type="radio" name="tamanho" value="pequena" />
+            P <br />
+            <input type="radio" name="tamanho" value="media" />
+            M <br />
+            <input type="radio" name="tamanho" value="grande" />
+            G <br />
+            <p> Quais cores de sapato você prefere?</p>
+            <input type="chcekbox" name="sapatos" value="preto" />
+            Preto <br />
+            <input type="checkbox" name="sapatos" value="branco" />
+            Branco <br />
+            <input type="chcekbox" name="sapatos" value="cinza" />
+            Cinza <br />
+            <input type="chcekbox" name="sapatos" value="marrom" />
+            Marrom <br />
+            <p> Preferencia musical</p>
+
+            <select multiple name="musical" size="4">
+                <option value="metal/rock">Metal/Rock</option>
+                <option value="hipohop">Hip Hop</option>
+                <option value="jazz">Jazz</option>
+                <oprion value="country">Country</option>
+                    <option value="sertanejo">Sertanejo</option>
+            </select><br />
+
+            <p> Nivel de escolaridade?</p>
+            <select name="niveldeescolaridade">
+                <option>Escolha</option>
+                <option>Ensino Médio</option>
+                <option>Nível Superior</option>
+                <option>Mestrado</option>
+                <option>Doutorado</option>
+                <option>P´s-Doutorado</option>
+            </select><br /> <br>
+            <TEXTAREA COLS=40 ROWS=5 NAME="comentario">
+Deixe seu comentário </TEXTAREA><br>
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+
+</html>
